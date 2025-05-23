@@ -10,7 +10,7 @@ def removeN(file):
     :return: None
     '''
     if "V" in file:
-        n=open(f"{file[:79]}-N {file[80:-10]}.fasta", "w")
+        n = open(f"{file[:79]}-N {file[80:-10]}.fasta", "w")
     else:
         n = open(f"{file[:78]}-N {file[79:-10]}.fasta", "w")
 
